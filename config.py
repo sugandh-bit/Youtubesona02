@@ -22,8 +22,8 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", None))
 
 # Vars For API End Pont.
-API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
-API_KEY = getenv("API_KEY", "30DxNexGenBots20b4bc") # youtube song api key, get it from https://t.me/MR_ROCKY_TZ
+YTPROXY_URL = getenv("YTPROXY_URL", 'https://tgapi.xbitcode.com') ## E.G https://yt.okflix.
+YT_API_KEY = getenv("xbit_ITDG1I6JWQWB7OQUFA7868", None )
 
 # Get this value from @MissRose_Bot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", None)) 

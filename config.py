@@ -21,6 +21,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 # Chat id of a group for logging bot's activities
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", None))
 
+# Vars For API End Pont.
 API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
 API_KEY = getenv("API_KEY", "30DxNexGenBots20b4bc") # youtube song api key, get it from https://t.me/MR_ROCKY_TZ
 
